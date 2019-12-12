@@ -2,9 +2,20 @@
 #define NETSIM_STORAGE_TYPES_H
 
 
-class storage_types {
+class IPackageStockpile {
 
 };
 
+class IPackageQueue {
+
+};
+
+class PackageQueue {
+
+};
+
+class PackageQueueType {
+
+};
 
 #endif //NETSIM_STORAGE_TYPES_H
