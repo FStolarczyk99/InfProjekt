@@ -11,8 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0517fee1-0fa3-40b9-b01a-6cf28b584956" name="Default Changelist" comment="">
+    <list default="true" id="0517fee1-0fa3-40b9-b01a-6cf28b584956" name="Default Changelist" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/package.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.h" beforeDir="false" afterPath="$PROJECT_DIR$/package.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.h" beforeDir="false" afterPath="$PROJECT_DIR$/types.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,9 @@
       <workItem from="1576150819134" duration="219000" />
       <workItem from="1576151051486" duration="639000" />
       <workItem from="1576151704061" duration="359000" />
-      <workItem from="1576152072087" duration="511000" />
+      <workItem from="1576152072087" duration="585000" />
+      <workItem from="1576271247663" duration="3100000" />
+      <workItem from="1576406647575" duration="4903000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1576151752656</created>
@@ -135,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576152537105</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test">
+      <created>1576152590687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576152590687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,14 +171,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576151678914" />
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1576152589536">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1576412032251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576152589536" />
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576412032251" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1576152144013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576152144013" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
     <state x="147" y="64" key="MergeDialog" timestamp="1576152577083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
