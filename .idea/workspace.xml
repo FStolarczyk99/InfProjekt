@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="NetSim" targetName="NetSim" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -9,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0517fee1-0fa3-40b9-b01a-6cf28b584956" name="Default Changelist" comment="Test">
+    <list default="true" id="0517fee1-0fa3-40b9-b01a-6cf28b584956" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NetSim.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NetSim.dir/depend.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -39,6 +43,7 @@
   <component name="ProjectId" id="1Uq0oSiYX784hVfTeAjBqkAVtGr" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +57,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NetSim" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NetSim" TARGET_NAME="NetSim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NetSim" RUN_TARGET_NAME="NetSim">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,6 +92,9 @@
       <workItem from="1576150819134" duration="219000" />
       <workItem from="1576151051486" duration="639000" />
       <workItem from="1576151704061" duration="359000" />
+      <workItem from="1576152072087" duration="585000" />
+      <workItem from="1576271247663" duration="3100000" />
+      <workItem from="1576406647575" duration="5145000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1576151752656</created>
@@ -88,7 +103,56 @@
       <option name="project" value="LOCAL" />
       <updated>1576151752656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <created>1576152082281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576152082281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test">
+      <created>1576152202252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576152202252</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test">
+      <created>1576152255986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576152255986</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test">
+      <created>1576152349407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576152349407</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test">
+      <created>1576152537105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576152537105</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test">
+      <created>1576152590687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576152590687</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Klasa Package + alias ElementID">
+      <created>1576412078881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576412078881</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,9 +160,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Klasa Package + alias ElementID" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klasa Package + alias ElementID" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Deployment" timestamp="1576152497086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1576152497086" />
     <state x="361" y="70" key="#Notifications" timestamp="1576151516395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -107,14 +176,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576151678914" />
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1576151806053">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1576412077431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576151806053" />
-    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1576151484315">
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576412077431" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1576152144013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576151484315" />
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576152144013" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1576412032309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576412032309" />
+    <state x="147" y="64" key="MergeDialog" timestamp="1576152577083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1576152577083" />
+    <state x="481" y="127" key="MultipleFileMergeDialog" timestamp="1576152580288">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="481" y="127" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1576152580288" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1576151488974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
