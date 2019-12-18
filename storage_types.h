@@ -10,6 +10,16 @@ enum class PackageQueueType {
 };
 
 class IPackageStockpile {
+public:
+    using container = std::list<Package>::const_iterator;
+    virtual void push(Package&&) = 0 ;
+    virtual bool empty() const = 0;
+    virtual size() const = 0;
+
+    virtual iterator begin() const = 0;
+    virtual iterator end() const = 0;
+    virtual iterator cbegin() const = 0;
+    virtual iterator cend() const = 0;
 
 };
 
@@ -19,8 +29,9 @@ public:
     virtual PackageQueueType get_queue_type() const = 0;
 };
 
-class PackageQueue {
-
+class PackageQueue : public IPackageQueue{
+public:
+    PackageQueue(PackageQueueType);
 };
 
 
