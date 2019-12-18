@@ -6,21 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Github/NetSim/main.cpp
-iostream
--
-package.h
-D:/Github/NetSim/package.h
-
-D:/Github/NetSim/package.cpp
-package.h
-D:/Github/NetSim/package.h
-
-D:/Github/NetSim/package.h
+D:/Github/NetSim/NetSim/package.h
 types.h
-D:/Github/NetSim/types.h
+D:/Github/NetSim/NetSim/types.h
 set
 -
 
-D:/Github/NetSim/types.h
+D:/Github/NetSim/NetSim/storage_types.cpp
+storage_types.h
+D:/Github/NetSim/NetSim/storage_types.h
+
+D:/Github/NetSim/NetSim/storage_types.h
+package.h
+D:/Github/NetSim/NetSim/package.h
+
+D:/Github/NetSim/NetSim/types.h
 

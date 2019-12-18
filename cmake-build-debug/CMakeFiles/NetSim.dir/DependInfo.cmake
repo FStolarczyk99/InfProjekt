@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Github/NetSim/main.cpp" "D:/Github/NetSim/cmake-build-debug/CMakeFiles/NetSim.dir/main.cpp.obj"
-  "D:/Github/NetSim/package.cpp" "D:/Github/NetSim/cmake-build-debug/CMakeFiles/NetSim.dir/package.cpp.obj"
-  "D:/Github/NetSim/storage_types.cpp" "D:/Github/NetSim/cmake-build-debug/CMakeFiles/NetSim.dir/storage_types.cpp.obj"
+  "D:/Github/NetSim/NetSim/main.cpp" "D:/Github/NetSim/NetSim/cmake-build-debug/CMakeFiles/NetSim.dir/main.cpp.obj"
+  "D:/Github/NetSim/NetSim/package.cpp" "D:/Github/NetSim/NetSim/cmake-build-debug/CMakeFiles/NetSim.dir/package.cpp.obj"
+  "D:/Github/NetSim/NetSim/storage_types.cpp" "D:/Github/NetSim/NetSim/cmake-build-debug/CMakeFiles/NetSim.dir/storage_types.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
