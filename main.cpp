@@ -3,7 +3,7 @@
 
 
 int main(){
-
+    /*
     std::set<int> ass;
     ass.insert(1);
     ass.insert(3);
@@ -14,9 +14,10 @@ int main(){
     for(auto i = ass.begin(); i != ass.end(); i++){
         std::cout << *i << std::endl;
     }
-    //tet
+    */
     Package paczka1;
     Package paczka2;
+    paczka1 = paczka2;
     Package paczka3;
     std::cout << paczka1.get_id() << " " << paczka2.get_id() << " " << paczka3.get_id();
 

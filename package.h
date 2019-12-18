@@ -9,6 +9,7 @@ class Package {
 public:
     Package();
     Package(Package&&) = default;
+    Package operator=(const Package& pack);
     int get_id() const { return id_; }
     ~Package();
 private:

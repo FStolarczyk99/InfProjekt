@@ -14,6 +14,10 @@ Package::Package() {
     }
 }
 
+class Package Package::operator=(class Package pack) {
+    pack.id_ = 0;
+}
+
 std::set<ElementID> Package::assigned_IDs;
 std::set<ElementID> Package::freed_IDs;
 
