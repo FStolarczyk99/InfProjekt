@@ -14,7 +14,7 @@ Package::Package() {
     }
 }
 
-class Package Package::operator=(class Package pack) {
+Package Package::operator=(class Package pack) {
     pack.id_ = 0;
 }
 

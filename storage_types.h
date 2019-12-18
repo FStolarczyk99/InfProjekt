@@ -2,6 +2,13 @@
 #define NETSIM_STORAGE_TYPES_H
 
 
+#include "package.h"
+
+enum class PackageQueueType {
+    FIFO,
+    LIFO
+};
+
 class IPackageStockpile {
 
 };
@@ -16,9 +23,5 @@ class PackageQueue {
 
 };
 
-enum class PackageQueueType {
-    FIFO,
-    LIFO
-};
 
 #endif //NETSIM_STORAGE_TYPES_H
