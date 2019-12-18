@@ -14,6 +14,7 @@ int main(){
     for(auto i = ass.begin(); i != ass.end(); i++){
         std::cout << *i << std::endl;
     }
+    //tet
     Package paczka1;
     Package paczka2;
     Package paczka3;
