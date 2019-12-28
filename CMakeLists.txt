@@ -10,4 +10,4 @@ add_executable(InfProjekt
         package.h
         storage_types.cpp
         storage_types.h
-        types.h)
+        types.h main.cpp)
