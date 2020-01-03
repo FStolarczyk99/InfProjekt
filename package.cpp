@@ -2,6 +2,9 @@
 
 #include <stdexcept>
 
+std::set<ElementID> Package::assigned_ids_;
+std::set<ElementID> Package::freed_ids_;
+
 void insert_if_not_exists(std::set<ElementID>& s, ElementID e) {
     if (s.find(e) == s.end()) {
         s.insert(e);

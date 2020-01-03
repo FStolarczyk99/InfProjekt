@@ -43,10 +43,11 @@ private:
      */
 
     // Pula identyfikatorów aktualnie przyporządkowanych półproduktom.
-    inline static std::set<ElementID> assigned_ids_{0};
+    // update: usunalem  inline bo uzywamy 14+
+    static std::set<ElementID> assigned_ids_;
 
     // Pula identyfikatorów, które zostały zwolnione w wyniku usuwania półproduktów.
-    inline static std::set<ElementID> freed_ids_;
+    static std::set<ElementID> freed_ids_;
 
     ElementID id_ = BLANK_ID;
 };
