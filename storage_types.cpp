@@ -1,15 +1,18 @@
 #include "storage_types.h"
 
+//TODO tutaj Agata musi poprawic to z zeszlej czesci bo cos nie dziala
+
+/*
 Package PackageQueue::pop() {
 
     switch(queueType){
-        case PackageQueueType::FIFO:{
+        case PackageQueueType::FIFO: {
             Package returnedPackage = std::move(queue.front());
             queue.pop_front();
             return returnedPackage;
         }
 
-        case PackageQueueType ::LIFO: {
+        case PackageQueueType::LIFO: {
             Package returnedPackage = std::move(queue.back());
             queue.pop_back();
             return returnedPackage;
@@ -17,4 +20,5 @@ Package PackageQueue::pop() {
     }
     return Package();
 }
+ */
 
