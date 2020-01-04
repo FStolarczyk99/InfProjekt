@@ -11,6 +11,8 @@
 #include "helpers.h"
 #include "PackageQueue.h"
 #include <memory>
+#include <vector>
+
 
 class IPackageReceiver {
 public:
@@ -59,6 +61,28 @@ public:
 private:
     ElementID id;
     std::unique_ptr<IPackageDepot> depot;
+};
+
+
+class Worker :public PackageSender, public IPackageReceiver
+{
+public:
+    Worker(ElementID, TimeOffset, std::unique_ptr<IPackageQueue>);
+    void receivePackage(Package) override;
+    void doWork();
+    inline ReciverType getReceiverType() const override { return ReciverType::WORKER; }
+    inline ElementID getId() const override { return id; }
+    inline TimeOffset getProcessingDuration() { return processingDuration; }
+    inline Time getPackageProcessingStartTime() { return packageProcessingStartTime; }
+
+
+
+private:
+    ElementID id;
+    TimeOffset processingDuration;
+    Time packageProcessingStartTime = 0;
+    std::unique_ptr<IPackageQueue> queue;
+    std::vector<Package> currentlyProcessedPackage;
 };
 
 #endif //INFPROJEKT_NODES_H
