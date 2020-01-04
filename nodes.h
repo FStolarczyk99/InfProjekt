@@ -9,6 +9,8 @@
 #include "package.h"
 #include "list"
 #include "helpers.h"
+#include "PackageQueue.h"
+#include <memory>
 
 class IPackageReceiver {
 public:
@@ -41,6 +43,22 @@ public:
     iterator end()            { return preferences_.end();    }
     c_iterator cbegin() const { return preferences_.cbegin(); }
     c_iterator cend()   const { return preferences_.cend();   }
+};
+
+class Storehouse : public IPackageReceiver
+{
+public:
+    Storehouse(ElementID);
+
+    void receivePackage(Package)override;
+    inline ElementID getId() const override { return id; }
+    void receivePackage(Package) override;
+    inline ReciverType getReceiverType() const override { return ReciverType::STORAGEHOUSE; }
+
+
+private:
+    ElementID id;
+    std::unique_ptr<IPackageDepot> depot;
 };
 
 #endif //INFPROJEKT_NODES_H
