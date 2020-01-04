@@ -31,3 +31,13 @@ void ReceiverPreferences::rebuild_pref() {
         item.second /= sum;
     }
 }
+
+Storehouse::Storehouse(ElementID ID) : id(ID)
+{
+    depot = std::make_unique<PackageQueue>();
+}
+
+void Storehouse::receivePackage(Package package)
+{
+    depot->push(package);
+}
