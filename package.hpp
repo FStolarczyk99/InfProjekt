@@ -3,7 +3,7 @@
 
 #include <set>
 
-#include "types.h"
+#include "types.hpp"
 
 /**
  * Ponieważ w myśl założeń projektowych w systemie nie mogą istnieć dwa

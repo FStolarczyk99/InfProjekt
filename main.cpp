@@ -1,6 +1,6 @@
 #include <iostream>
-#include "package.h"
-#include "helpers.h"
+#include "package.hpp"
+#include "helpers.hpp"
 
 
 int main(){

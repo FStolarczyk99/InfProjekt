@@ -1,4 +1,4 @@
-#include "nodes.h"
+#include "nodes.hpp"
 
 void ReceiverPreferences::add_receiver(IPackageReceiver* r) {
     preferences_.emplace(std::make_pair(r,1.0)); // get_random()

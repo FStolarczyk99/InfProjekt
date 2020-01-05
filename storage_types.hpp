@@ -1,7 +1,7 @@
 #ifndef NETSIM_STORAGE_TYPES_H
 #define NETSIM_STORAGE_TYPES_H
 
-#include "package.h"
+#include "package.hpp"
 #include "list"
 
 
