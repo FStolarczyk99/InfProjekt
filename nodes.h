@@ -9,7 +9,6 @@
 #include "package.h"
 #include "list"
 #include "helpers.h"
-#include "PackageQueue.h"
 #include <memory>
 #include <vector>
 #include <optional>

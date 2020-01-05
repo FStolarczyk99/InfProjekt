@@ -24,12 +24,14 @@ public:
 };
 
 class IPackageQueue: public IPackageStockpile{
+    using iterator = std::list<Package>::const_iterator;
 public:
     virtual Package pop() = 0;
     virtual PackageQueueType get_queue_type() const = 0;
 };
 
 class PackageQueue: public IPackageQueue{
+    using iterator = std::list<Package>::const_iterator;
 private:
     PackageQueueType mQueueType;
     std::list<Package> mQueue;
@@ -40,7 +42,7 @@ public:
     Package pop() override;
     void push(Package&& pck) override;
     bool empty() const override     { return mQueue.empty();  }
-    size_t size() const override    { return mQueue.size();   }
+    int size() const override    { return mQueue.size();   }
     iterator begin() const override { return mQueue.begin();  }
     iterator end() const override   { return mQueue.end();    }
     iterator cbegin()const override { return mQueue.cbegin(); }
