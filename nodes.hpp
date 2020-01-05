@@ -1,14 +1,14 @@
-#ifndef INFPROJEKT_NODES_H
-#define INFPROJEKT_NODES_H
+#ifndef INFPROJEKT_NODES_HPP
+#define INFPROJEKT_NODES_HPP
 
 //plik nagłówkowy "nodes.hpp" zawierający definicję klas IPackageReceiver,
 // Storehouse, ReceiverPreferences, PackageSender, Ramp i Worker
 
 #include <map>
-#include "types.h"
-#include "package.h"
+#include "types.hpp"
+#include "package.hpp"
 #include "list"
-#include "helpers.h"
+#include "helpers.hpp"
 #include <memory>
 #include <vector>
 #include <optional>
@@ -108,4 +108,4 @@ private:
     std::vector<Package> currentlyProcessedPackage;
 };
 
-#endif //INFPROJEKT_NODES_H
+#endif //INFPROJEKT_NODES_HPP

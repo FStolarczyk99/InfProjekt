@@ -11,10 +11,10 @@ add_executable(
         InfProjekt
         main.cpp
         package.cpp
-        package.h
+        package.hpp
         storage_types.cpp
-        storage_types.h
-        types.h
+        storage_types.hpp
+        types.hpp
         nodes.cpp
-        nodes.h
-        helpers.cpp helpers.h)
+        nodes.hpp
+        helpers.cpp helpers.hpp)
