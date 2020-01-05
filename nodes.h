@@ -12,6 +12,8 @@
 #include "PackageQueue.h"
 #include <memory>
 #include <vector>
+#include <optional>
+#include <functional>
 
 
 class IPackageReceiver {
@@ -45,6 +47,28 @@ public:
     iterator end()            { return preferences_.end();    }
     c_iterator cbegin() const { return preferences_.cbegin(); }
     c_iterator cend()   const { return preferences_.cend();   }
+};
+
+class PackageSender{
+private:
+    std::optional<Package> mBuffer;
+public:
+    ReceiverPreferences receiver_preferences_;
+    void send_package();
+    std::optional<Package> get_sending_buffer() const {return mBuffer;};
+protected:
+    void push_package(Package&& pck);
+};
+
+class Ramp : public PackageSender{
+private:
+    TimeOffset mOffset;
+    ElementID mID;
+public:
+    Ramp(ElementID id, TimeOffset di) : mOffset(di), mID(id) {}
+    void deliver_goods(Time t);
+    TimeOffset get_delivery_interval()  const {return mOffset; }
+    ElementID get_ID()                  const { return mID;    }
 };
 
 class Storehouse : public IPackageReceiver
