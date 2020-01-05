@@ -23,15 +23,28 @@ public:
     virtual iterator cend()   const = 0;
 };
 
-class IPackageQueue {
+class IPackageQueue: public IPackageStockpile{
 public:
     virtual Package pop() = 0;
     virtual PackageQueueType get_queue_type() const = 0;
 };
 
-class PackageQueue : public IPackageQueue{
+class PackageQueue: public IPackageQueue{
+private:
+    PackageQueueType mQueueType;
+    std::list<Package> mQueue;
 public:
-    PackageQueue(PackageQueueType);
+    PackageQueue(PackageQueueType queueType) : mQueueType(queueType) {}
+    PackageQueueType get_queue_type() const override { return mQueueType; }
+
+    Package pop() override;
+    void push(Package&& pck) override;
+    bool empty() const override     { return mQueue.empty();  }
+    size_t size() const override    { return mQueue.size();   }
+    iterator begin() const override { return mQueue.begin();  }
+    iterator end() const override   { return mQueue.end();    }
+    iterator cbegin()const override { return mQueue.cbegin(); }
+    iterator cend() const override  { return mQueue.cend();   }
 };
 
 
