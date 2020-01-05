@@ -32,6 +32,24 @@ void ReceiverPreferences::rebuild_pref() {
     }
 }
 
+void PackageSender::send_package(){
+    if(mBuffer){
+        receiver_preferences_.choose_receiver()->receive_package(std::move(*mBuffer));
+        mBuffer.reset();
+    }
+}
+
+void PackageSender::push_package(Package&& pck){
+    mBuffer.emplace(std::move(pck));
+}
+
+void Ramp::deliver_goods(Time t){
+    if(t % mOffset == 0){
+        Package pack;
+        push_package(std::move(pack));
+    }
+}
+
 Storehouse::Storehouse(ElementID ID) : id(ID)
 {
     depot = std::make_unique<PackageQueue>();
